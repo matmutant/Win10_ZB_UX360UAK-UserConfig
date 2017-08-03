@@ -6,8 +6,29 @@ Windows10 UserConfig on a ASUS ZenBook UX360UAK
 - [x] CPU: Core ![i7-7500U](https://ark.intel.com/products/95451/Intel-Core-i7-7500U-Processor-4M-Cache-up-to-3_50-GHz-)
 - [X] iGP: Intel HD620
 - [x] RAM: 16GB 
-- [x] SSD: 500GB SanDisk SD8SN8U512G1002
+- [x] SSD: 500GB M.2 SATA3 SanDisk SD8SN8U512G1002
 - [x] OS: Windows 10 x64 Home
+
+## Installed Software  
+To get similar informations I had when using Conky on my GNU-Linux laptop, I installed the following:
+- ![Rainmeter](https://www.rainmeter.net/) (see Rainmeter config part)
+- Coretemp  
+
+To address the loud fan issue I used:
+- NoteBookFanControl (see dedicated part)
+
+Misc software installed:
+- NotePad++ (with plugin installed like Compare and XML Tools)
+- 7-Zip
+- ![Image Resizer](http://www.bricelam.net/ImageResizer/)
+- LibreOffice 5.3.4.2 (x64)
+- Office 365
+- [...]
+
+## Loud fan issue workaround  
+This laptop fan being extremely loud and whistling (even when idle, the fan simply never stops at the factory settings), it is needed to use a third party software to adress this issue:  
+**NoteBookFanControl** (![NBFC](https://github.com/hirschmann/nbfc/releases)) by @hirschmann
+
 
 ## Rainmeter config  
 ![screenshot of Rainmeter](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/blob/master/ScreenShots/rainmeter.png)
