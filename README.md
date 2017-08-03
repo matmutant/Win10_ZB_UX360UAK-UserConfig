@@ -5,7 +5,7 @@ Windows10 UserConfig on a ASUS ZenBook UX360UAK
 ### ASUS ZenBook UX360UAK  
 - [x] CPU: Core ![i7-7500U](https://ark.intel.com/products/95451/Intel-Core-i7-7500U-Processor-4M-Cache-up-to-3_50-GHz-)
 - [X] iGP: Intel HD620
-- [x] RAM: 16GB 
+- [x] RAM: SK Hynix LPDDR3-1866 16GB, H9CCNNNCLTMLAR-NUD (`wmic memorychip list full`)
 - [x] SSD: 500GB M.2 SATA3 SanDisk SD8SN8U512G1002
 - [x] OS: Windows 10 x64 Home
 
