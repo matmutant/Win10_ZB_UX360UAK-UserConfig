@@ -30,6 +30,10 @@ This laptop fan being extremely loud and whistling (even when idle, the fan simp
 **NoteBookFanControl** (![NBFC](https://github.com/hirschmann/nbfc/releases)) by @hirschmann  
 Note that the UX360UAK is natively supported by the software
 
+## DPI Scaling  
+Some apps don't render well on the 13.3" 1080p screen, for those, it is needed to disable scaling in compatibility settings  
+More info on ![technet](https://technet.microsoft.com/en-us/library/dn528847.aspx?f=255&MSPPError=-2147217396)
+
 ## Disabling Cortana  
 run regedit, and find (or create) rthe following key :
 ```
