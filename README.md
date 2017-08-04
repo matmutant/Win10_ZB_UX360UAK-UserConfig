@@ -1,5 +1,5 @@
 # Win10_ZB_UX360UAK-UserConfig
-Windows10 UserConfig on a ASUS ZenBook UX360UAK
+Own Windows10 UserConfig on a ASUS ZenBook UX360UAK
 
 ## Hardware:  
 ### ASUS ZenBook UX360UAK  
@@ -27,8 +27,22 @@ Misc software installed:
 
 ## Loud fan issue workaround  
 This laptop fan being extremely loud and whistling (even when idle, the fan simply never stops at the factory settings), it is needed to use a third party software to adress this issue:  
-**NoteBookFanControl** (![NBFC](https://github.com/hirschmann/nbfc/releases)) by @hirschmann
+**NoteBookFanControl** (![NBFC](https://github.com/hirschmann/nbfc/releases)) by @hirschmann  
+Note that the UX360UAK is natively supported by the software
 
+## Disabling Cortana  
+run regedit, and find (or create) rthe following key :
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search.
+```
+create a new `DWORD (32-bit) value`, name it `Allow Cortana`, set its value to 0; reboot  
 
 ## Rainmeter config  
-![screenshot of Rainmeter](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/blob/master/ScreenShots/rainmeter.png)
+![screenshot of Rainmeter](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/blob/master/ScreenShots/rainmeter.png)  
+See Rainmeter dedicated folders for modified .ini files
+
+## Battery reports  
+in cmd, enter the following:
+```
+powercfg /batteryreport /output "C:\Users\[username]\battery-report.html"
+```
