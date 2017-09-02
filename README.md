@@ -21,6 +21,7 @@ To address the loud fan issue I used:
 
 Misc software installed:
 - NotePad++ (with plugin installed like Compare and XML Tools)
+- ![Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 - 7-Zip
 - ![Image Resizer](http://www.bricelam.net/ImageResizer/)
 - LibreOffice 5.3.4.2 (x64)
