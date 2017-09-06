@@ -26,6 +26,7 @@ Misc software installed:
 - ![Image Resizer](http://www.bricelam.net/ImageResizer/)
 - LibreOffice 5.3.4.2 (x64)
 - Office 365
+- VirtualBox
 - [...]
 
 ## Loud fan issue workaround  
@@ -53,3 +54,12 @@ in cmd, enter the following:
 ```
 powercfg /batteryreport /output "C:\Users\[username]\battery-report.html"
 ```
+
+## VirtualBox HDD inflating 
+For some reason I had choosen a far too small size for my Bunsenlabs virtual machine HDD, if it ever happens again, here is how to expand the .vdi size and reallocate the partition:  
+```
+cd "C:\Program Files\Oracle\VirtualBox"
+VBoxManage modifyhd “C:\Users\mathi\Documents\VirtualBox VMs\BunsenTest\BunsenTest.vdi” --resize 16384
+```
+Then boot up the virtual machine on a gparted live iso (or any GNU-Linux distro that ships with it) and move/resize the partitions to fit the new virtual HDD size.  
+Reboot, Enjoy.  
