@@ -55,7 +55,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\PowerPoint\Options
 NB1: Replace 16.0 by the relevent Office version if your are not using Office 2016  
 Then, create a new `DWORD (32-bit) value`, name it `ExportBitmapResolution`, set to the wanted **decimal value** (here 150), exit regedit; reboot or restart PowerPoint  
 NB2: In Hexadecimal, 150 is 0x00000096, so don't panic if you see 96 (hexadecimal) as the DWORD value after checking regedit again.  
-NB3: Absolute maxiumum resolution is 307ppi (more info on !(support.microsoft.com)[https://support.microsoft.com/en-us/help/827745/how-to-change-the-export-resolution-of-a-powerpoint-slide])  
+NB3: Absolute maxiumum resolution is 307ppi (more info on ![support.microsoft.com](https://support.microsoft.com/en-us/help/827745/how-to-change-the-export-resolution-of-a-powerpoint-slide))  
 
 ## Rainmeter config  
 ![screenshot of Rainmeter](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/blob/master/ScreenShots/rainmeter.png)  
