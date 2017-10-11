@@ -58,7 +58,7 @@ NB2: In Hexadecimal, 150 is 0x00000096, so don't panic if you see 96 (hexadecima
 NB3: Absolute maxiumum resolution is 307ppi (more info on ![support.microsoft.com](https://support.microsoft.com/en-us/help/827745/how-to-change-the-export-resolution-of-a-powerpoint-slide))  
 
 ## Rainmeter config  
-![screenshot of Rainmeter](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/blob/master/ScreenShots/rainmeter.png)  
+![screenshot of Rainmeter](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/blob/master/ScreenShots/rainmeter2017101.png)  
 See Rainmeter dedicated folders for modified .ini files
 
 ## Battery reports  
