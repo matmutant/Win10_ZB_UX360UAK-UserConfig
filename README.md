@@ -27,7 +27,8 @@ Misc software installed:
 - LibreOffice 5.3.4.2 (x64)
 - Office 365
 - VirtualBox
-- [...]
+- [...]  
+- WSL (with ZSH used as main Shell)
 
 ## Loud fan issue workaround  
 This laptop fan being extremely loud and whistling (even when idle, the fan simply never stops at the factory settings), it is needed to use a third party software to adress this issue:  
@@ -46,6 +47,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search.
 ```
 create a new `DWORD (32-bit) value`, name it `Allow Cortana`, set its value to 0, exit regedit; reboot   
 
+## Z-Shell config
+see [ZSH](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/tree/master/ZSH) folder and its dedicated README  
+
+## Office config
+see [Office](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/tree/master/Office) folder and its dedicated README
 ## Rainmeter config  
 ![screenshot of Rainmeter](https://github.com/matmutant/Win10_ZB_UX360UAK-UserConfig/blob/master/ScreenShots/rainmeter2017101.png)  
 See Rainmeter dedicated folders for modified .ini files
