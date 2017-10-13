@@ -10,6 +10,7 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<,eol:$ ",space:. "set uprintabl
 set list "enables uprintable char to be displayed
 "set showcmd
 set showmode
+set visualbell "used to disable the ANNOYING BEEEEEEP
 
 set incsearch "Shows the match while typing
 set hlsearch "Highlight found searches
@@ -18,4 +19,3 @@ set hlsearch "Highlight found searches
 if has('mouse')
 	set mouse=a
 endif
-
