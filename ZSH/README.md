@@ -15,7 +15,11 @@ cd
 fi
 ```
 ## custom ZSH config  
-Before using the provided .zshrc, don't forget to install neofetch (for 16.04 Ubuntu WSL, then see [here](https://github.com/dylanaraps/neofetch/wiki/Installation#ubuntu-1610-and-below)
+Before using the provided .zshrc, don't forget to install neofetch (for 16.04 Ubuntu WSL, then see [here](https://github.com/dylanaraps/neofetch/wiki/Installation#ubuntu-1610-and-below))  
+
+## You no that BEEEEEP
+Nuke the annoying beep with : ```setopt NO_BEEP```  
+(Already included in the .zshrc)
 
 ## Vim SetUp  
 ~/.vimrc dotfile contains some settings, mostly taken from [c0nk](https://github.com/c0nk/.vim/blob/master/vimrc) dotfiles
