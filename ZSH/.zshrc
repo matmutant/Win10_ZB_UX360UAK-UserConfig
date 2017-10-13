@@ -96,6 +96,8 @@ COLUMNS=$(tput cols)
 title="\e[1;31;47mYou attempt things that you do not even plan because of your extreme stupidity.\e[0m\n" 
 printf "\n%*b\n" $(((${#title}+$COLUMNS)/2)) "$title"
 
+#Disabling the annoying BEEP
+setopt NO_BEEP
 
 fi
 
