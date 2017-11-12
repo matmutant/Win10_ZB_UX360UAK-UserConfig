@@ -84,18 +84,27 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias :q=exit
+#The following aliases are meant to reduce the time using cd to my main workdirs.
+alias :cours="cd ~/WinDocs/COURS/M2_IBM-2017-2018"
+#This alias is used with an interger argument to go to */UE1, */UE2... if exist
+alias :ue='function _ue(){ cd ./WinDocs/COURS/M2_IBM-2017-2018/UE$1; };_ue'
 
 #starting ZSH in ~ as default dir when user prompted (keeps lauch directory if launched by other way)
 if [ -t 1 ]; then
 cd
+#displayind a reminder
+COLUMNS=$(tput cols)
+title="\e[1;31;47mYou attempt things that you do not even plan because of your extreme stupidity.\e[0m\n"
+printf "\n%*b\n" $(((${#title}+$COLUMNS)/2)) "$title"
 #launching neofetch at start
 #neofetch --ascii_distro windows --ascii_colors
 /usr/bin/neofetch --off
-#displaying a reminder
-COLUMNS=$(tput cols) 
-title="\e[1;31;47mYou attempt things that you do not even plan because of your extreme stupidity.\e[0m\n" 
-printf "\n%*b\n" $(((${#title}+$COLUMNS)/2)) "$title"
-
+#displaying a reminder (2)
+title1="\e[1;31;47mIl semble que la perfection soit atteinte non quand il n'y a plus rien à ajouter,\e[0m\n"
+title1b="\e[1;31;47m    mais quand il n'y plus rien à retrancher. Antoine de Saint-Exupéry, 1939.    \e[0m\n"
+printf "\n%*b" $(((${#title1}+$COLUMNS)/2)) "$title1"
+printf "%*b\n" $(((${#title1b}+$COLUMNS)/2)) "$title1b"
 #Disabling the annoying BEEP
 setopt NO_BEEP
 
