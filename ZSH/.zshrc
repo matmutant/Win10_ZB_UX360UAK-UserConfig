@@ -88,7 +88,7 @@ alias :q=exit
 #The following aliases are meant to reduce the time using cd to my main workdirs.
 alias :cours="cd ~/WinDocs/COURS/M2_IBM-2017-2018"
 #This alias is used with an interger argument to go to */UE1, */UE2... if exist
-alias :ue='function _ue(){ cd ./WinDocs/COURS/M2_IBM-2017-2018/UE$1; };_ue'
+alias :ue='function _ue(){ cd ~/WinDocs/COURS/M2_IBM-2017-2018/UE$1; };_ue'
 
 #starting ZSH in ~ as default dir when user prompted (keeps lauch directory if launched by other way)
 if [ -t 1 ]; then
@@ -110,5 +110,7 @@ setopt NO_BEEP
 
 fi
 
-
-
+#adding insults on bad commands (based on hkbakke's)
+if [ -f ~/.zshInsulter/zsh.command-not-found ]; then
+	. ~/.zshInsulter/zsh.command-not-found
+fi
