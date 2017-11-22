@@ -24,3 +24,7 @@ Nuke the annoying beep with : ```setopt NO_BEEP```
 ## Vim SetUp  
 ~/.vimrc dotfile contains some settings, mostly taken from [c0nk](https://github.com/c0nk/.vim/blob/master/vimrc) dotfiles
 ~/.vim/autoload and bundle are used for [Pathogen](https://github.com/tpope/vim-pathogen/) and other plugins
+
+Vim modules in use : 
+* [vim-airline](https://github.com/vim-airline/vim-airline)
+* [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
